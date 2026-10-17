@@ -1,0 +1,20 @@
+{
+  "name": "mern-url-shortener",
+  "version": "1.0.0",
+  "description": "A URL shortener built with the MERN stack",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.10.4",
+    "nanoid": "^6.0.1",
+    "nodemon": "^3.1.14"
+  }
+}
